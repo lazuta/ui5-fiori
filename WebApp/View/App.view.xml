@@ -4,6 +4,12 @@
    xmlns:mvc="sap.ui.core.mvc">
     <Text text="Hello World"/>
 
+    <Input
+      value="{/recipient/name}"
+      description="Hello {/recipient/name}"
+      valueLiveUpdate="true"
+      width="60%"/>
+
     <Button
       text="Say Hello"
       press=".onShowHello"/>
