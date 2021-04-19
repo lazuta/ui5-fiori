@@ -2,7 +2,7 @@
    controllerName="sap.ui.demo.walkthrough.controller.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-    <Text text="Hello World"/>
+    <!-- <Text text="Hello World"/> -->
 
     <Input
       value="{/recipient/name}"
@@ -11,6 +11,6 @@
       width="60%"/>
 
     <Button
-      text="Say Hello"
+      text="{i18n>showHelloButtonText}"
       press=".onShowHello"/>
 </mvc:View>
